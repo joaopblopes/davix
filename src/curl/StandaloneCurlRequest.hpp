@@ -32,6 +32,8 @@ struct curl_slist;
 
 namespace Davix {
 
+std::string getCurlVersion();
+
 class CurlSessionFactory;
 class ContentProvider;
 class CurlSession;
